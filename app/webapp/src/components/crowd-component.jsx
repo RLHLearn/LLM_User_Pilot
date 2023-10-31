@@ -10,7 +10,7 @@ const ShortInstructions = () => (
     </p>
     <p>You need answer a set of ~40 questions.</p>
     <p>
-      If you don't know an answer or a given task is unappealing, please do not use external chat GPT-like solutions.
+      If you don't know an answer, please do not use external Chat GPT-like solutions.
       Copying and pasting large amounts of text will invalidate your response.
     </p>
     </div>
