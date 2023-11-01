@@ -3,7 +3,6 @@ defaults:
   - /mephisto/blueprint: static_react_task
   - /mephisto/architect: local
   - /mephisto/provider: mock
-
 mephisto:
   log_level: debug
   blueprint:
@@ -13,10 +12,10 @@ mephisto:
     extra_source_dir: ${task_dir}/webapp/src/static
     units_per_assignment: 1
   task:
-    task_name: pigmented-iris-d
-    task_title: "Identify the presence and location of any pigmented iris freckles in the iris image."
-    task_description: "Welcome to this crowdsourcing project, where your help is needed to identify pigmented iris freckles in iris images."
+    task_name: LLM_user_test_d
+    task_title: "Answer various questions commonly found in online tasks."
+    task_description: "Welcome to this crowdsourcing project, where your help is needed to answer various kinds of questions."
     task_reward: 0.5
-    task_tags: "keypoints, keypoint, point, points"
+    task_tags: "multiple choice, question"
     # We expect to be able to handle 300 concurrent tasks without issue
     max_num_concurrent_units: 300
